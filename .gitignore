@@ -1,0 +1,79 @@
+# ---- Build Directories ----
+build/
+build-debug/
+build-release/
+out/
+bin/
+obj/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ---- Visual Studio / VSCode ----
+.vscode/
+.vs/
+
+# ---- OS Specific ----
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.cache/
+.config/
+
+# ---- Compiler Output ----
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# ---- Logs ----
+*.log
+
+# ---- Dependencies (we use vendor/ folder instead) ----
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# ---- ImGui / SDL / OpenGL Generated Files ----
+*.pch
+*.pdb
+*.idb
+*.ilk
+
+# ---- Temporary files ----
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ---- IDE Specific ----
+.idea/
+.clangd/
+*.iml
+
+# ---- Python helper scripts ----
+__pycache__/
+*.pyc
+
+# ---- Backup files ----
+*.bak
+*.old
+
+# ---- CTest ----
+Testing/
+CTestTestfile.cmake
